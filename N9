@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect Wallet</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white shadow-md rounded-lg p-6 max-w-4xl flex">
+    <!-- Left Section -->
+    <div class="w-1/2 border-r pr-6">
+      <img src="metamask-logo-placeholder.png" alt="Metamask Logo" class="w-12 h-12 mb-4">
+      <h2 class="text-2xl font-bold mb-2">Connect your wallet</h2>
+      <p class="text-gray-600 mb-4">
+        Connecting your wallet is like “logging in” to Web3. Select your wallet from the options to get started.
+      </p>
+      <a href="#" class="text-blue-600 text-sm flex items-center">
+        <span>I don't have a wallet</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1 4h-1m4-4h-4m4 0h4m-4 0V4m0 0v4m0-4h4m-4 0h-4" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Right Section -->
+    <div class="w-1/2 pl-6">
+      <h3 class="text-lg font-semibold mb-4">Available Wallets (12)</h3>
+      <div class="grid grid-cols-2 gap-4">
+        <!-- Wallet Buttons -->
+        <button class="flex items-center border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100">
+          <img src="metamask-logo-placeholder.png" alt="Metamask" class="w-6 h-6 mr-3">
+          <span>MetaMask</span>
+        </button>
+        <button class="flex items-center border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100">
+          <img src="torus-logo-placeholder.png" alt="Torus" class="w-6 h-6 mr-3">
+          <span>Torus</span>
+        </button>
+        <button class="flex items-center border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100">
+          <img src="phantom-logo-placeholder.png" alt="Phantom" class="w-6 h-6 mr-3">
+          <span>Phantom</span>
+        </button>
+        <button class="flex items-center border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100">
+          <img src="bitget-logo-placeholder.png" alt="Bitget Wallet" class="w-6 h-6 mr-3">
+          <span>Bitget Wallet</span>
+        </button>
+        <button class="flex items-center border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100">
+          <img src="blocto-logo-placeholder.png" alt="Blocto" class="w-6 h-6 mr-3">
+          <span>Blocto</span>
+        </button>
+        <button class="flex items-center border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100">
+          <img src="dcent-logo-placeholder.png" alt="D'CENT" class="w-6 h-6 mr-3">
+          <span>D'CENT</span>
+        </button>
+        <button class="flex items-center border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100">
+          <img src="enrypt-logo-placeholder.png" alt="Enkrypt" class="w-6 h-6 mr-3">
+          <span>Enkrypt</span>
+        </button>
+        <button class="flex items-center border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100">
+          <img src="frame-logo-placeholder.png" alt="Frame" class="w-6 h-6 mr-3">
+          <span>Frame</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
